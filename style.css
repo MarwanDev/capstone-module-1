@@ -219,6 +219,10 @@ header .header-container {
   -webkit-filter: sepia(100%);
 }
 
+.footer .footer-logo-container img {
+  width: 135px;
+}
+
 .main-program .programs-list .program-container img {
   width: 20px;
   height: 5vh;
@@ -313,6 +317,10 @@ header .header-container {
   background-repeat: no-repeat;
   background-size: 80px 80px;
   margin-right: 20px;
+}
+
+.partners .partner-icons-list .partner-icons-list-child li img {
+  margin-left: 30px;
 }
 
 .featured-professors .professors-list .professor .img-container img {
@@ -528,19 +536,11 @@ header .about-header-container {
   margin-top: 30px;
 }
 
-.partners .partner-icons-list .partner-icons-list-child li img {
-  margin-left: 30px;
-}
-
 .footer {
   background-color: #fff;
   padding: 60px 80px;
   display: flex;
   flex-direction: row;
-}
-
-.footer .footer-logo-container img {
-  width: 135px;
 }
 
 .footer .copyright {
@@ -585,7 +585,9 @@ header .about-header-container {
     cursor: pointer;
   }
 
-  .header, .main-program, .professors-list {
+  .header,
+  .main-program,
+  .professors-list {
     padding-left: 150px;
     padding-right: 150px;
   }
@@ -611,7 +613,11 @@ header .about-header-container {
   .partners .partner-icons-list {
     flex-direction: row;
   }
-  
+
+  .footer .footer-logo-container img {
+    width: 400px;
+  }
+
   .partners .partner-icons-list li img {
     width: 150px;
   }
@@ -623,11 +629,7 @@ header .about-header-container {
     flex-direction: row;
     justify-content: space-between;
   }
-  
-  .footer .footer-logo-container img {
-    width: 400px;
-  }
-  
+
   .footer .copyright {
     text-align: end;
     font-weight: 700;
