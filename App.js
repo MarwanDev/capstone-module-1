@@ -78,8 +78,7 @@ if (professorsButton.style.display === 'none') {
     professorsButton.style.display = 'none';
   });
 }
-// });
-// console.log(professorsArray[1].imgSrc);
+
 const date = new Date();
 
 const day = date.getDate();
@@ -89,4 +88,4 @@ const year = date.getFullYear();
 const currentDate = `${day}.${month}.${year}`;
 
 const todayDate = document.getElementById('date');
-todayDate.innerHTML = currentDate;
+todayDate.insertAdjacentHTML('afterbegin', currentDate);

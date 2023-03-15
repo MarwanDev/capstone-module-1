@@ -48,7 +48,7 @@ p.small {
   padding-top: 10px;
   justify-content: space-between;
   position: fixed;
-  background: rgba(0, 0, 0, 0);
+  background: rgba(242, 242, 242, 0.1);
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -173,7 +173,7 @@ header .header-container {
   padding-bottom: 25px;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  max-height: 100vh;
 }
 
 .main-program .main-program-heading {
@@ -269,11 +269,11 @@ header .header-container {
 }
 
 .featured-professors {
-  margin-top: 20px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .featured-professors .professors-list {
@@ -360,13 +360,7 @@ header .about-header-container {
   flex-direction: column;
   margin-top: 35px;
   text-align: center;
-}
-
-.about-header-container .about-welcome-heading {
-  color: #ec5242;
-  font-family: "Lato", sans-serif;
-  font-size: 12px;
-  text-align: center;
+  padding-bottom: 50px;
 }
 
 .about-header-container .about-intro {
@@ -378,6 +372,8 @@ header .about-header-container {
   -webkit-background-clip: text;
   font-size: 40px;
   text-align: center;
+  align-self: center;
+  max-width: 500px;
 }
 
 .about-header-container .about-intro-paragraph {
@@ -390,6 +386,8 @@ header .about-header-container {
   color: #4a4848;
   margin-top: 30px;
   text-align: center;
+  align-self: center;
+  max-width: 500px;
 }
 
 .about-header-container .about-contact-p {
@@ -414,8 +412,7 @@ header .about-header-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 30px 25px;
 }
 
 .logo-section .logo-section-head {
@@ -437,7 +434,10 @@ header .about-header-container {
 }
 
 .logo-section .logo {
+  margin-top: 32px;
+  border: 1px solid #2c2c2c;
   max-width: 500px;
+  margin-bottom: 20px;
 }
 
 .past-summits-sections {
@@ -496,6 +496,47 @@ header .about-header-container {
   text-shadow: 1px 2px #363434;
 }
 
+.partners {
+  display: flex;
+  flex-direction: column;
+  background-color: #414246;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-items: center;
+  overflow: auto;
+}
+
+.partners .partners-heading {
+  color: white;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.partners .partner-icons-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+}
+
+.partners .partner-icons-list .partner-icons-list-child {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+.partners .partner-icons-list .partner-icons-list-child li img {
+  margin-left: 30px;
+}
+
+.footer {
+  background-color: #2E2E2E;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 @media screen and (min-width: 768px) {
   .navbar {
     background-color: white;
@@ -525,5 +566,36 @@ header .about-header-container {
   .links-container ul li {
     margin-left: 45px;
     cursor: pointer;
+  }
+
+  .header, .main-program, .professors-list {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+  .main-program .programs-list {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+  }
+
+  .featured-professors .professors-list {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+  }
+
+  .past-summits-sections .past-summits-images-container {
+    flex-direction: row;
+  }
+
+  .past-summits-images-container .img-container {
+    width: 400px;
+  }
+
+  .partners .partner-icons-list {
+    flex-direction: row;
+  }
+  
+  .partners .partner-icons-list li img {
+    width: 150px;
   }
 }
