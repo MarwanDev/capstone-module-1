@@ -145,7 +145,7 @@ header .header-container {
   color: rgba(236, 82, 66, 0.3);
   -webkit-background-clip: text;
   font-size: 40px;
-  max-width: 470px;
+  max-width: 500px;
 }
 
 .header-container .intro-paragraph {
@@ -157,7 +157,7 @@ header .header-container {
   font-weight: 400;
   color: #4a4848;
   margin-top: 30px;
-  max-width: 470px;
+  max-width: 500px;
 }
 
 .header-container .date {
@@ -424,7 +424,7 @@ header .about-header-container {
   color: #292828;
   margin-top: 25px;
   text-align: center;
-  max-width: 450px;
+  max-width: 500px;
 }
 
 .logo-section .logo-section-desc {
@@ -433,7 +433,7 @@ header .about-header-container {
   color: #4a4848;
   margin-top: 25px;
   text-align: center;
-  max-width: 450px;
+  max-width: 500px;
 }
 
 .logo-section .logo {
