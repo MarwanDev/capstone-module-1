@@ -59,7 +59,7 @@ if (professorsButton.style.display === 'none') {
     professorsContainer.insertAdjacentHTML('afterbegin', htmlToAdd);
   }
 } else {
-  for (let i = 0; i < 2; i += 1) {
+  for (let i = professorsArray.length - 2; i < professorsArray.length; i += 1) {
     const htmlToAdd = professorsDisplay(professorsArray[i].name,
       professorsArray[i].summary,
       professorsArray[i].studies,
@@ -67,7 +67,8 @@ if (professorsButton.style.display === 'none') {
     professorsContainer.insertAdjacentHTML('afterbegin', htmlToAdd);
   }
   professorsButton.addEventListener('click', () => {
-    for (let i = 2; i < professorsArray.length; i += 1) {
+    professorsContainer.innerHTML = '';
+    for (let i = 0; i < professorsArray.length; i += 1) {
       const htmlToAdd = professorsDisplay(professorsArray[i].name,
         professorsArray[i].summary,
         professorsArray[i].studies,
