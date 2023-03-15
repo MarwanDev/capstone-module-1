@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Commons Courses</title>
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="logo-container">
+      <a href="index.html">
+        <img src="assets/cc_global_submit_2015-01-02.png" alt="cc-logo" />
+      </a>
+    </div>
+    <div class="bars" id="toggle-icon" onclick="toggleMobileMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <ul class="nav-menu">
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a>Program</a>
+        </li>
+        <li>
+          <a>Join</a>
+        </li>
+        <li>
+          <a>Sponsor</a>
+        </li>
+        <li>
+          <a>News</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="links-container">
+    <ul>
+      <li>
+        <a href="about.html">About</a>
+      </li>
+      <li>
+        <a>Program</a>
+      </li>
+      <li>
+        <a>Join</a>
+      </li>
+      <li>
+        <a>Sponsor</a>
+      </li>
+      <li>
+        <a>News</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<header class="header">
+  <div class="header-container">
+    <h1 class="welcome-heading">"Hello! Sharing world"</h1>
+    <h2 class="intro">Creative Commons Global Summit</h2>
+    <p class="intro-paragraph">A joyful celebration believing in the value of openness and sharing, creating a positive change with people from over 80 countries is taking place in October, in Korea.</p>
+    <!-- today's date -->
+    <h3 class="date" id="date"><script>currentDate</script></h3>
+  </div>
+</header>
+
+<section class="main-program">
+  <h3 class="main-program-heading">Main Program</h3>
+  <hr class="main-program-hr">
+  <ul class="programs-list">
+    <li class="program-container">
+      <img src="assets/distance-learning.png" alt="course" />
+      <h4 class="program-title">AI Marketing</h4>
+      <p class="program-desc">Have the time to share your thoughts and opinions with experts for each logic</p>
+    </li>
+    <li class="program-container">
+      <img src="assets/online-test.png" alt="course" />
+      <h4 class="program-title">Fintech Programme</h4>
+      <p class="program-desc">Have the time to share your thoughts and opinions with experts for each logic</p>
+    </li>
+    <li class="program-container">
+      <img src="assets/audio-book.png" alt="course" />
+      <h4 class="program-title">Cyber Security</h4>
+      <p class="program-desc">Try creating your own work using open source license</p>
+    </li>
+    <li class="program-container">
+      <img src="assets/student.png" alt="course" />
+      <h4 class="program-title">AI Marketing</h4>
+      <p class="program-desc">Have the time to share your thoughts and opinions with experts for each logic</p>
+    </li>
+    <li class="program-container">
+      <img src="assets/work.png" alt="course" />
+      <h4 class="program-title">Blockchain Strategy Programme</h4>
+      <p class="program-desc">Have the time to share your thoughts and opinions with experts for each logic</p>
+    </li>
+  </ul>
+  <button class="program-join-button">Join CC Latest Course Journal</button>
+
+  <section class="featured-professors">
+    <h3 class="featured-professors-heading">Main Program</h3>
+    <hr class="main-program-hr" id="main-program-hr">
+    <article class="professors-list" id="professors-list">
+    </article>
+    <button type="button" class="more-professors-btn"><img src="assets/down-arrow.png" alt="more">
+    </button>
+  </section>
+</section>
+</body>
+<script src="App.js"></script>
+</html>
