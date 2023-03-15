@@ -5,10 +5,10 @@ function toggleMobileMenu(menu) {
 
 const professorsArray = [
   {
-    name: 'Yochai Benkler',
+    name: 'Matt Leaman',
     summary: 'Berkman Professor of EnterPreneurial Legal Studies at Harvard Law School',
     studies: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006',
-    imgSrc: 'assets/julia_reda.jpg',
+    imgSrc: 'assets/mattl.jpg',
   },
   {
     name: 'Yochai Benkler',
@@ -17,24 +17,25 @@ const professorsArray = [
     imgSrc: 'assets/julia_reda.jpg',
   },
   {
-    name: 'Yochai Benkler',
+    name: 'ryan merkley',
     summary: 'Berkman Professor of EnterPreneurial Legal Studies at Harvard Law School',
     studies: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006',
-    imgSrc: 'assets/julia_reda.jpg',
+    imgSrc: 'assets/ryanmerkley.jpg',
   },
   {
-    name: 'Yochai Benkler',
+    name: 'Lila Tretikov',
     summary: 'Berkman Professor of EnterPreneurial Legal Studies at Harvard Law School',
     studies: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006',
-    imgSrc: 'assets/julia_reda.jpg',
+    imgSrc: 'assets/Lila_Tretikov_600.jpg',
   },
   {
-    name: 'Yochai Benkler',
+    name: 'Kilnam Chon',
     summary: 'Berkman Professor of EnterPreneurial Legal Studies at Harvard Law School',
     studies: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006',
-    imgSrc: 'assets/julia_reda.jpg',
+    imgSrc: 'assets/KilnamChonPortrait.jpg',
   },
 ];
+
 
 const professorsContainer = document.getElementById('professors-list');
 const professorsDisplay = (name, summary, studies, imgSrc) => `<div class="professor">
