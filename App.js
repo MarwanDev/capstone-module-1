@@ -36,7 +36,6 @@ const professorsArray = [
   },
 ];
 
-
 const professorsContainer = document.getElementById('professors-list');
 const professorsDisplay = (name, summary, studies, imgSrc) => `<div class="professor">
 <div class="img-container">
