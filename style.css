@@ -142,10 +142,11 @@ header .header-container {
   text-transform: uppercase;
   display: block;
   margin-top: 30px;
-  color: rgba(236, 82, 66, 0.3);
+  color: rgba(236, 82, 66, 1);
   -webkit-background-clip: text;
   font-size: 40px;
   max-width: 500px;
+  font-weight: normal;
 }
 
 .header-container .intro-paragraph {
@@ -380,7 +381,7 @@ header .about-header-container {
   text-transform: uppercase;
   display: block;
   margin-top: 30px;
-  color: rgba(236, 82, 66, 0.3);
+  color: rgba(236, 82, 66, 1);
   -webkit-background-clip: text;
   font-size: 40px;
   text-align: center;
@@ -547,7 +548,7 @@ header .about-header-container {
 }
 
 .footer .copyright {
-  text-align: end;
+  text-align: left;
   height: 24px;
   font-family: 'Lato', sans-serif;
   font-style: normal;
@@ -636,8 +637,13 @@ header .about-header-container {
   }
 
   .featured-professors .professors-list {
+    align-self: center;
     display: grid;
-    grid-template-columns: repeat(3, 400px);
+    grid-template-columns: repeat(2, 660px);
+  }
+
+  .featured-professors .professors-list .professor {
+    max-width: 440px;
   }
 
   .past-summits-sections .past-summits-images-container {
@@ -661,7 +667,7 @@ header .about-header-container {
   }
 
   .footer .copyright {
-    text-align: end;
+    text-align: left;
     font-weight: 700;
     font-size: 30px;
     margin-top: 60px;
