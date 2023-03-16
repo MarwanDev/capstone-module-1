@@ -549,9 +549,10 @@ header .about-header-container {
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 24px;
   margin-left: 20px;
+  margin-top: 30px;
 }
 
 @media screen and (min-width: 768px) {
@@ -569,7 +570,7 @@ header .about-header-container {
   }
 
   .navbar .logo-container img {
-    width: 60px;
+    width: 50px;
   }
 
   .links-container ul {
@@ -594,7 +595,33 @@ header .about-header-container {
 
   .main-program .programs-list {
     display: grid;
-    grid-template-columns: repeat(3, 400px);
+    grid-template-columns: repeat(5, 175px);
+  }
+
+  .main-program .programs-list .program-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    min-height: 200px;
+    align-items: center;
+    padding: 10px 10px;
+  }
+
+  .main-program .programs-list .program-container img {
+    width: 35px;
+  }
+
+  .main-program .programs-list .program-container .program-title {
+    margin-top: 15px;
+    text-align: justify;
+    max-width: 100px;
+    height: 20px;
+  }
+
+  .main-program .programs-list .program-container .program-desc {
+    margin-top: 25px;
+    text-align: start;
+    max-width: 120px;
   }
 
   .featured-professors .professors-list {
@@ -615,7 +642,7 @@ header .about-header-container {
   }
 
   .footer .footer-logo-container img {
-    width: 400px;
+    width: 180px;
   }
 
   .partners .partner-icons-list li img {
@@ -634,6 +661,6 @@ header .about-header-container {
     text-align: end;
     font-weight: 700;
     font-size: 30px;
-    margin-top: 30px;
+    margin-top: 60px;
   }
 }
