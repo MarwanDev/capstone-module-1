@@ -210,7 +210,7 @@ header .header-container {
 }
 
 .featured-professors .more-professors-btn img {
-  margin-left: 5px;
+  margin-left: 25px;
 }
 
 .past-summits-images-container .img-container img {
@@ -359,9 +359,11 @@ header .header-container {
 .featured-professors .more-professors-btn {
   margin-bottom: 30px;
   padding: 20px 30px;
-  background-color: #b5b0b0;
-  width: 250px;
+  background-color: #fff;
+  width: 280px;
   align-self: center;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
 }
 
 header .about-header-container {
