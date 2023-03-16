@@ -607,6 +607,14 @@ header .about-header-container {
     padding: 10px 10px;
   }
 
+  .footer .footer-logo-container img {
+    width: 180px;
+  }
+
+  .partners .partner-icons-list li img {
+    width: 150px;
+  }
+
   .main-program .programs-list .program-container img {
     width: 35px;
   }
@@ -639,14 +647,6 @@ header .about-header-container {
 
   .partners .partner-icons-list {
     flex-direction: row;
-  }
-
-  .footer .footer-logo-container img {
-    width: 180px;
-  }
-
-  .partners .partner-icons-list li img {
-    width: 150px;
   }
 
   .footer {
