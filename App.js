@@ -35,7 +35,7 @@ const professorsArray = [
     imgSrc: 'assets/KilnamChonPortrait.jpg',
   },
   {
-    name: 'Julia Leda',
+    name: 'Julia Reda',
     summary: 'President of Young Pirates of Europe',
     studies: 'European ingetration, political democracy and participation of youth through online as her major condern, Reda’s report outlining potential changes to EU copyright law was approved by the Parliament in July',
     imgSrc: 'assets/julia_reda.jpg',
