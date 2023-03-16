@@ -120,9 +120,7 @@ nav .nav-menu {
 }
 
 header {
-  padding-top: 50px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 70px 25px 25px 50px;
 }
 
 header .header-container {
@@ -260,6 +258,10 @@ header .header-container {
   margin-bottom: 15px;
 }
 
+.main-program .program-alt-link {
+  display: none;
+}
+
 .main-program .programs-list .program-container:hover {
   background: rgba(0, 0, 0, 0.3);
   background-color: #757370;
@@ -374,6 +376,7 @@ header .about-header-container {
   margin-top: 35px;
   text-align: center;
   padding-bottom: 50px;
+  padding-top: 40px;
 }
 
 .about-header-container .about-intro {
@@ -433,6 +436,7 @@ header .about-header-container {
   font-size: 28px;
   color: #292828;
   margin-top: 25px;
+  margin-bottom: 20px;
   text-align: center;
   max-width: 500px;
 }
@@ -520,7 +524,7 @@ header .about-header-container {
 }
 
 .partners .partners-heading {
-  color: white;
+  color: #8f8f91;
   font-family: "Lato", sans-serif;
   text-align: center;
   margin-bottom: 12px;
@@ -540,14 +544,14 @@ header .about-header-container {
   margin-top: 30px;
 }
 
-.footer {
+footer {
   background-color: #fff;
   padding: 60px 80px;
   display: flex;
   flex-direction: row;
 }
 
-.footer .copyright {
+footer .copyright {
   text-align: left;
   height: 24px;
   font-family: 'Lato', sans-serif;
@@ -562,6 +566,9 @@ header .about-header-container {
 @media screen and (min-width: 768px) {
   .navbar {
     background-color: white;
+    padding-left: 150px;
+    padding-right: 220px;
+    height: 130px;
   }
 
   #toggle-icon {
@@ -573,20 +580,45 @@ header .about-header-container {
     display: block;
   }
 
+  footer .footer-logo-container img {
+    width: 180px;
+  }
+
   .navbar .logo-container img {
-    width: 50px;
+    width: 100px;
   }
 
   .links-container ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    padding-top: 20px;
-    padding-right: 70px;
+    padding-top: 40px;
+    padding-right: 55px;
   }
 
   .links-container ul li {
     margin-left: 45px;
+    cursor: pointer;
+  }
+
+  .links-container ul li a {
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    color: #868686;
+  }
+
+  .links-container ul li button {
+    padding: 5px 25px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ec4327;
+    border: 5px solid #ec4327;
+    background-color: #fff;
+    width: 144px;
+    height: 50px;
     cursor: pointer;
   }
 
@@ -609,10 +641,6 @@ header .about-header-container {
     min-height: 200px;
     align-items: center;
     padding: 10px 10px;
-  }
-
-  .footer .footer-logo-container img {
-    width: 180px;
   }
 
   .partners .partner-icons-list li img {
@@ -658,7 +686,7 @@ header .about-header-container {
     flex-direction: row;
   }
 
-  .footer {
+  footer {
     background-color: #fff;
     padding: 60px 80px;
     display: flex;
@@ -666,10 +694,37 @@ header .about-header-container {
     justify-content: space-between;
   }
 
-  .footer .copyright {
+  .about-footer {
+    background-color: #414246;
+  }
+
+  footer .copyright {
     text-align: left;
     font-weight: 700;
     font-size: 30px;
     margin-top: 60px;
+  }
+
+  .about-footer .copyright {
+    color: #fff;
+  }
+
+  .main-program .program-join-button {
+    display: none;
+  }
+
+  .main-program .program-alt-link {
+    display: block;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-self: center;
+    height: 19px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff;
   }
 }
