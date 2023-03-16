@@ -138,7 +138,7 @@ header .header-container {
 }
 
 .header-container .intro {
-  font-family: "cocogoose", sans-serif;
+  font-family: "cocogoose-trial", sans-serif;
   text-transform: uppercase;
   display: block;
   margin-top: 30px;
@@ -358,6 +358,7 @@ header .header-container {
 
 .featured-professors .more-professors-btn {
   margin-bottom: 30px;
+  margin-top: 30px;
   padding: 20px 30px;
   background-color: #fff;
   width: 280px;
@@ -375,7 +376,7 @@ header .about-header-container {
 }
 
 .about-header-container .about-intro {
-  font-family: "cocogoose", sans-serif;
+  font-family: "cocogoose-trial", sans-serif;
   text-transform: uppercase;
   display: block;
   margin-top: 30px;
