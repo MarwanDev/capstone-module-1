@@ -566,7 +566,7 @@ footer .copyright {
     position: fixed;
     display: flex;
     flex-direction: row;
-    background-color: #3E3E3E;
+    background-color: #3e3e3e;
     height: 30px;
     padding-left: 60vw;
     width: 100%;
@@ -581,8 +581,19 @@ footer .copyright {
     padding-bottom: 5px;
   }
 
+  .links-container ul li {
+    margin-left: 45px;
+    cursor: pointer;
+  }
+
   .black-navbar .social-icons-container li {
     margin-right: 25px;
+  }
+
+  .links-container ul li a {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    color: #868686;
   }
 
   .black-navbar .social-icons-container li a {
@@ -630,17 +641,6 @@ footer .copyright {
     list-style-type: none;
     padding-top: 40px;
     padding-right: 55px;
-  }
-
-  .links-container ul li {
-    margin-left: 45px;
-    cursor: pointer;
-  }
-
-  .links-container ul li a {
-    font-family: "Lato", sans-serif;
-    font-size: 14px;
-    color: #868686;
   }
 
   .links-container .cc-button {
