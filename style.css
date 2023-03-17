@@ -186,7 +186,7 @@ header .header-container {
   margin-bottom: 12px;
 }
 
-.main-program-hr {
+.main-program .main-program-heading .main-program-hr {
   width: 35px;
   align-self: center;
   color: #ec5242;
@@ -302,6 +302,12 @@ footer .footer-logo-container img {
   font-family: "Lato", sans-serif;
   text-align: center;
   margin-bottom: 12px;
+}
+
+.featured-professors .featured-professors-heading .featured-professors-hr {
+  width: 35px;
+  align-self: center;
+  color: #ec5242;
 }
 
 .featured-professors .professors-list .professor {
