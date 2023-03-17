@@ -571,6 +571,7 @@ footer .copyright {
     padding-left: 60vw;
     width: 100%;
     align-items: center;
+    justify-content: space-between;
   }
 
   .black-navbar .social-icons-container {
@@ -579,6 +580,9 @@ footer .copyright {
     list-style-type: none;
     padding-top: 5px;
     padding-bottom: 5px;
+    width: 70vw;
+    justify-content: flex-end;
+    margin-right: 280px;
   }
 
   .links-container ul li {
@@ -611,6 +615,8 @@ footer .copyright {
     padding-left: 150px;
     padding-right: 150px;
     height: 130px;
+    display: flex;
+    flex-direction: row;
   }
 
   #toggle-icon {
@@ -631,16 +637,16 @@ footer .copyright {
   }
 
   .links-container {
-    display: flex;
-    flex-direction: row;
+    display: block;
   }
 
   .links-container ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    padding-top: 40px;
-    padding-right: 55px;
+    margin-top: 40px;
+    justify-content: flex-end;
+    align-items: center;
   }
 
   .links-container .cc-button {
@@ -656,8 +662,9 @@ footer .copyright {
     width: 150px;
     height: 50px;
     cursor: pointer;
+    margin-bottom: 40px;
+    margin-right: 10vw;
     margin-top: 23px;
-    margin-right: 200px;
   }
 
   .header,
