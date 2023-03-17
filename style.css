@@ -656,7 +656,8 @@ footer .copyright {
     width: 150px;
     height: 50px;
     cursor: pointer;
-    margin-top: 30px;
+    margin-top: 23px;
+    margin-right: 200px;
   }
 
   .header,
@@ -704,7 +705,7 @@ footer .copyright {
   .featured-professors .professors-list {
     align-self: center;
     display: grid;
-    grid-template-columns: repeat(2, 660px);
+    grid-template-columns: repeat(2, 40vw);
   }
 
   .featured-professors .professors-list .professor {
