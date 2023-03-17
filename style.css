@@ -57,6 +57,10 @@ p.small {
   display: none;
 }
 
+.links-container button {
+  display: none;
+}
+
 #toggle-icon {
   display: block;
 }
@@ -567,7 +571,7 @@ footer .copyright {
   .navbar {
     background-color: white;
     padding-left: 150px;
-    padding-right: 220px;
+    padding-right: 150px;
     height: 130px;
   }
 
@@ -588,6 +592,11 @@ footer .copyright {
     width: 100px;
   }
 
+  .links-container {
+    display: flex;
+    flex-direction: row;
+  }
+
   .links-container ul {
     display: flex;
     flex-direction: row;
@@ -603,11 +612,11 @@ footer .copyright {
 
   .links-container ul li a {
     font-family: "Lato", sans-serif;
-    font-size: 24px;
+    font-size: 14px;
     color: #868686;
   }
 
-  .links-container ul li button {
+  .links-container button {
     padding: 5px 25px;
     font-family: 'Lato', sans-serif;
     font-style: normal;
@@ -620,6 +629,7 @@ footer .copyright {
     width: 150px;
     height: 50px;
     cursor: pointer;
+    margin-top: 30px;
   }
 
   .header,
@@ -672,6 +682,10 @@ footer .copyright {
 
   .featured-professors .professors-list .professor {
     max-width: 440px;
+  }
+
+  .featured-professors .more-professors-btn {
+    display: none;
   }
 
   .past-summits-sections .past-summits-images-container {

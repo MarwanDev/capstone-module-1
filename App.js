@@ -56,14 +56,15 @@ const professorsDisplay = (name, summary, studies, imgSrc) => `<div class="profe
 </div>`;
 
 const professorsButton = document.getElementById('more-professors-btn');
-if (professorsButton.style.display === 'none') {
-  for (let i = 0; i < professorsArray.length; i += 1) {
-    const htmlToAdd = professorsDisplay(professorsArray[i].name,
-      professorsArray[i].summary,
-      professorsArray[i].studies,
-      professorsArray[i].imgSrc);
+if (window.matchMedia('(min-width: 700px)').matches) {
+  professorsArray.forEach((professor) => {
+    const htmlToAdd = professorsDisplay(professor.name,
+      professor.summary,
+      professor.studies,
+      professor.imgSrc);
     professorsContainer.insertAdjacentHTML('afterbegin', htmlToAdd);
-  }
+  });
+  console.log(professorsArray.length);
 } else {
   for (let i = professorsArray.length - 3; i < professorsArray.length; i += 1) {
     const htmlToAdd = professorsDisplay(professorsArray[i].name,
