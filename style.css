@@ -208,6 +208,10 @@ header .header-container {
   max-width: 350px;
 }
 
+footer .footer-logo-container img {
+  width: 135px;
+}
+
 .featured-professors .more-professors-btn img {
   margin-left: 25px;
 }
@@ -216,10 +220,6 @@ header .header-container {
   width: 300px;
   filter: sepia(100%);
   -webkit-filter: sepia(100%);
-}
-
-footer .footer-logo-container img {
-  width: 135px;
 }
 
 .main-program .programs-list .program-container img {
