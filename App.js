@@ -64,7 +64,6 @@ if (window.matchMedia('(min-width: 700px)').matches) {
       professor.imgSrc);
     professorsContainer.insertAdjacentHTML('afterbegin', htmlToAdd);
   });
-  console.log(professorsArray.length);
 } else {
   for (let i = professorsArray.length - 3; i < professorsArray.length; i += 1) {
     const htmlToAdd = professorsDisplay(professorsArray[i].name,
