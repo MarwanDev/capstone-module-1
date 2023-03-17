@@ -375,6 +375,7 @@ header .about-header-container {
   text-align: center;
   padding-bottom: 50px;
   padding-top: 40px;
+  margin-top: 75px;
 }
 
 .about-header-container .about-intro {
@@ -668,9 +669,14 @@ footer .copyright {
     margin-top: 23px;
   }
 
-  .header,
   .main-program,
   .professors-list {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+  .header .header-container {
+    margin-top: 80px;
     padding-left: 150px;
     padding-right: 150px;
   }
