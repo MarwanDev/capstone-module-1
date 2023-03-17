@@ -713,6 +713,8 @@ footer .copyright {
     align-self: center;
     display: grid;
     grid-template-columns: repeat(2, 40vw);
+    padding-left: 120px;
+    padding-right: 20px;
   }
 
   .featured-professors .professors-list .professor {
