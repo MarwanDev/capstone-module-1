@@ -567,11 +567,11 @@ footer .copyright {
     display: flex;
     flex-direction: row;
     background-color: #3e3e3e;
-    height: 30px;
+    height: 50px;
     padding-left: 60vw;
     width: 100%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .black-navbar .social-icons-container {
@@ -582,7 +582,8 @@ footer .copyright {
     padding-bottom: 5px;
     width: 70vw;
     justify-content: flex-end;
-    margin-right: 280px;
+    align-items: center;
+    margin-right: 310px;
   }
 
   .links-container ul li {
@@ -591,7 +592,7 @@ footer .copyright {
   }
 
   .black-navbar .social-icons-container li {
-    margin-right: 25px;
+    margin-left: 25px;
   }
 
   .links-container ul li a {
@@ -610,7 +611,7 @@ footer .copyright {
   }
 
   .navbar {
-    margin-top: 30px;
+    margin-top: 50px;
     background-color: white;
     padding-left: 150px;
     padding-right: 150px;
